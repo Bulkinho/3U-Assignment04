@@ -30,8 +30,7 @@ public class A4Q2 {
 
 
 
-        //ask amount to be converted
-        System.out.println("Please enter the measurement in inches you wish to convert");
+       
 
 
 
