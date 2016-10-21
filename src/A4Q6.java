@@ -15,6 +15,8 @@ public class A4Q6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        //scanner for user
         Scanner in = new Scanner(System.in);
         //scenario 1
         //ask user for  minutes used 
@@ -100,8 +102,9 @@ public class A4Q6 {
         double cost12 = number6 * 0.25;
 
         //total of plan B
-        double totalB2 =  cost10 + cost11 + cost12;
-        
+        double totalB2 = cost10 + cost11 + cost12;
+        totalB2 = Math.round(totalB2*100)/100.0;
+
         System.out.println("Plan B costs " + totalB2);
 
         //determine which is cheaper and display it to user
@@ -110,6 +113,7 @@ public class A4Q6 {
         } else if (totalB2 > totalA2) {
         }
 
+        
 
 
 
